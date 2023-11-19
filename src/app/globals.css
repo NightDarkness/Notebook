@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  overflow-x: hidden;
+}
+
+.content-container{
+  
+  .content-subcontainer{
+
+    display: flex;
+
+    .articles{
+      background: #eee;
+      width: 85%;
+      padding-bottom: 10vh;
+
+      .row{
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .shortcuts{
+      background: white;
+      width: 15%;
+      border-left: solid 2px black;
+    }
+  }
+}

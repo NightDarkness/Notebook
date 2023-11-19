@@ -1,0 +1,7 @@
+.carousel{
+    background: rgba(0,0,0,0.70);
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
