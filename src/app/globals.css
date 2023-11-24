@@ -6,6 +6,10 @@ html{
   overflow-x: hidden;
 }
 
+.main-container{
+  min-height: 64vh;
+}
+
 .content-container{
   
   .content-subcontainer{

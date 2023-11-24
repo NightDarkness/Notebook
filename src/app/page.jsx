@@ -4,7 +4,7 @@ import Carousel from '@/components/Carousel'
 
 export default function Home() {
   return (
-    <main className="main-container">
+    
       <div className="content-container">
         <Carousel
           images={['/assets/images/1.jpg','/assets/images/2.jpg','/assets/images/1.jpg']}
@@ -107,6 +107,5 @@ export default function Home() {
           </section>
         </div>
       </div>
-    </main>
   )
 }
