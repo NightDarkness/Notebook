@@ -1,4 +1,5 @@
-import './globals.css'
+import './categorias.css'
+import Card from '../../components/Card'
 
 export const metadata = {
     title: 'Categorias',
@@ -7,20 +8,42 @@ export const metadata = {
 
 export default function Categorias(){
     return(
-        <>
+        <div className='container'>
             <div className="title">
                 <span>Categorias</span>
             </div>
             <hr className='divisor'/>
             <div className="content">
-                <span>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quos necessitatibus obcaecati aliquid ipsam, amet iste repellendus voluptas error nostrum omnis maiores id, harum exercitationem vero voluptatum ad labore? Iusto?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, eligendi deleniti ipsam adipisci fuga placeat accusamus omnis suscipit esse? Vitae aspernatur eligendi facilis deleniti fuga incidunt in nihil ad alias?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, facere? Id, consequuntur autem. Corrupti dolores asperiores, maxime illum, officia reiciendis, totam pariatur earum adipisci aut rerum incidunt quia fugiat dignissimos?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi iure quo incidunt pariatur eum consequuntur fuga molestias excepturi soluta velit possimus error aperiam, fugit adipisci debitis, labore voluptas! Quo, sapiente?
-                    
-                </span>
+                <section className="articles">
+                    <section className="row">
+                        <Card
+                            image= '/assets/images/win-logo.png'
+                            title='Software Windows'
+                            href='/'
+                        />
+                        <Card
+                            image= '/assets/images/git-bash-logo.png'
+                            title='Software Linux'
+                            href='/'
+                        />
+                        <Card
+                            image= '/assets/images/hardware-logo.png'
+                            title='Hardware'
+                            href='/'
+                        />
+                        <Card
+                            image= '/assets/images/code-logo.png'
+                            title='Programacion'
+                            href='/'
+                        />
+                        <Card
+                            image= '/assets/images/software-logo.png'
+                            title='The Uncategory'
+                            href='/'
+                        />
+                    </section>
+                </section>
             </div>
-        </>
+        </div>
     )
 }

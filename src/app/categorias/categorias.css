@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+
+    .title{
+        padding: 3% 0 2% 3%;
+        font-size: 4vh;
+    }
+    
+    .divisor{
+        width: 100vw;
+        border-bottom: solid 2px #000;
+    }
+    
+    .content{
+        
+        background: #eee;
+        width: 100vw;
+        min-height: 100%;
+        padding: 1% 0 0 0;
+    
+        .articles{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+        
+            .row{
+                display: flex;
+                align-self: center;
+                justify-content: center;
+            }
+        }
+    }
+}

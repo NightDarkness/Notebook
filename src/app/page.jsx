@@ -15,29 +15,21 @@ export default function Home() {
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Como cambiar IP'
-                platform='Windows'
-                description='Como cambiar tu ip desde Windows con la menos configuracion.'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Formas de abrir CMD'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Activar windows desde CMD'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Formatear un Disco'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
             </section>
@@ -45,29 +37,21 @@ export default function Home() {
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Como cambiar IP'
-                platform='Windows'
-                description='Como cambiar tu ip desde Windows con la menos configuracion.'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Formas de abrir CMD'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Activar windows desde CMD'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Formatear un Disco'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
             </section>
@@ -75,29 +59,21 @@ export default function Home() {
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Como cambiar IP'
-                platform='Windows'
-                description='Como cambiar tu ip desde Windows con la menos configuracion.'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Formas de abrir CMD'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Activar windows desde CMD'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
               <Card
                 image= '/assets/images/win-logo.png'
                 title='Formatear un Disco'
-                platform='Windows'
-                description='Sample Text'
                 href='https://google.com/'
               />
             </section>
