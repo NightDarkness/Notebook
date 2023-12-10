@@ -1,0 +1,50 @@
+[debug] [2023-12-10T23:02:54.807Z] ----------------------------------------------------------------------
+[debug] [2023-12-10T23:02:54.829Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Night\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-12-10T23:02:54.830Z] CLI Version:   13.0.1
+[debug] [2023-12-10T23:02:54.830Z] Platform:      win32
+[debug] [2023-12-10T23:02:54.831Z] Node Version:  v20.8.0
+[debug] [2023-12-10T23:02:54.831Z] Time:          Sun Dec 10 2023 16:02:54 GMT-0700 (hora estándar de la montaña)
+[debug] [2023-12-10T23:02:54.832Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-10T23:02:54.939Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-10T23:02:54.939Z] > authorizing via signed-in user (nightdarkness62@gmail.com)
+[debug] [2023-12-10T23:02:54.940Z] [iam] checking project notebook-night for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-12-10T23:02:54.941Z] > refreshing access token with scopes: []
+[debug] [2023-12-10T23:02:54.943Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-12-10T23:02:54.944Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-10T23:02:55.272Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-12-10T23:02:55.272Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-10T23:02:55.283Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/notebook-night:testIamPermissions [none]
+[debug] [2023-12-10T23:02:55.284Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/notebook-night:testIamPermissions x-goog-quota-user=projects/notebook-night
+[debug] [2023-12-10T23:02:55.284Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/notebook-night:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-12-10T23:02:55.574Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/notebook-night:testIamPermissions 200
+[debug] [2023-12-10T23:02:55.574Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/notebook-night:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-12-10T23:02:55.578Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/notebook-night [none]
+[debug] [2023-12-10T23:02:55.908Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/notebook-night 200
+[debug] [2023-12-10T23:02:55.909Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/notebook-night {"projectId":"notebook-night","projectNumber":"699032300376","displayName":"notebook","name":"projects/notebook-night","resources":{"hostingSite":"notebook-night"},"state":"ACTIVE","etag":"1_46defe1c-f010-4240-aaee-4c1f5304974e"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    ▲ Next.js 14.0.3
+
+[info] 
+   Creating an optimized production build ...
+
+[info] 
+
+[info] warn - No utility classes were detected in your source files. If this is unexpected, double-check the `content` option in your Tailwind CSS configuration.
+warn - https://tailwindcss.com/docs/content-configuration
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info]    Collecting page data ...
+
