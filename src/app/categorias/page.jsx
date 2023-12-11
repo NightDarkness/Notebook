@@ -1,4 +1,4 @@
-import './categorias.css'
+import styles from './categorias.module.css'
 import Card from '../../components/Card'
 
 export const metadata = {
@@ -8,38 +8,38 @@ export const metadata = {
 
 export default function Categorias(){
     return(
-        <div className='container'>
-            <div className="title">
+        <div className={styles.content_container}>
+            <div className={styles.title}>
                 <span>Categorias</span>
             </div>
-            <hr className='divisor'/>
-            <div className="content">
-                <section className="articles">
-                    <section className="row">
+            <hr className={styles.divisor}/>
+            <div className={styles.categories}>
+                <section className={styles.articles}>
+                    <section className={styles.row}>
                         <Card
                             image= '/assets/images/win-logo.png'
                             title='Software Windows'
-                            href='/'
+                            href='/categorias/windows'
                         />
                         <Card
                             image= '/assets/images/git-bash-logo.png'
                             title='Software Linux'
-                            href='/'
+                            href='/categorias/linux'
                         />
                         <Card
                             image= '/assets/images/hardware-logo.png'
                             title='Hardware'
-                            href='/'
+                            href='/categorias/hardware'
                         />
                         <Card
                             image= '/assets/images/code-logo.png'
                             title='Programacion'
-                            href='/'
+                            href='/categorias/code'
                         />
                         <Card
                             image= '/assets/images/software-logo.png'
                             title='The Uncategory'
-                            href='/'
+                            href='/categorias/other'
                         />
                     </section>
                 </section>

@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import './Card.css'
+import styles from'./Card.module.css'
 
 export default function Card(props){
     return(
         
-        <Link href={props.href} className='link'>
-            <article className="card">
-                <div className='image'>
+        <Link href={props.href} className={styles.link}>
+            <article className={styles.card}>
+                <div className={styles.image}>
                     <Image
                         src={props.image}
                         width={400}
@@ -15,7 +15,7 @@ export default function Card(props){
                         alt='Article Image'
                     />
                 </div>
-                <div className='info'>
+                <div className={styles.info}>
                     <span>{props.title}</span>
                 </div>
             </article>

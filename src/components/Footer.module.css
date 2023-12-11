@@ -1,0 +1,63 @@
+.main{
+    background: #333;
+    height: 30vh;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .content{
+        align-self: center;
+        height: 95%;
+        width: 95%;
+        display: flex;
+        justify-content: flex-end;
+        border-bottom: solid 2px #eee;
+        margin-top: 5vh;
+
+        .social{
+            height:32px;
+            width:25%;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 5%;
+            margin-top: 5vh;
+
+            .icons{
+                margin: 0 5px 0 5px;
+            }
+        }
+
+        .categories{
+            display: flex;
+
+            .col{
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+
+                span{
+                    font-size: 22px;
+                    margin-top: 4vh;
+                }
+
+                ul{
+                    li{
+                        font-size: 15px;
+                    }
+                }
+
+                .image{
+                    align-self: center;
+                    overflow: hidden;
+                }
+            }
+        }
+
+    }
+
+    .terms{
+        align-self: center;
+    }
+    
+}

@@ -1,12 +1,12 @@
-import './Index.css'
+import styles from './Index.module.css'
 
 export default function Index(){
     return(
-        <section className='main'>
-            <div className='title'>
+        <section className={styles.main}>
+            <div className={styles.title}>
                 <span>Indice</span>
             </div>
-            <div className='categories'>
+            <div className={styles.categories}>
                 <span>Windows</span>
                 <ul>
                     <li>Redes</li>
